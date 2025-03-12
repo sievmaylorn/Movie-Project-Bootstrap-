@@ -23,21 +23,21 @@
             transition: color 0.3s ease-in-out;
         } */
          .bg-hover:hover {
-            background-color: rgb(224, 79, 171) !important;
+            background-color: rgb(109, 161, 220) !important;
          }
-        
+    
     </style>
 </head>
 <body>
     <div class="container-fluid p-0">
 
-        <!-- Header -->
+        <!--------- Header ------------>
         <header class="">
-            <nav class="navbar container-fluid text-light fixed-top" id="nav">
+            <nav class="navbar  container-fluid text-light fixed-top" id="nav">
                <div class="container">
                 <div class="d-flex align-items-center">
-                    <div style="width: 65px; height: 65px;" class="overflow-hidden">
-                        <img src="./assets/icon/Icon.webp" alt="Logo" class="w-100 h-100 object-fit-cover">
+                    <div style="width: 60px; height: 60px;" class="overflow-hidden">
+                        <img src="./assets/logo.webp" alt="Image-Logo" class="w-100 h-100 object-fit-cover ">
                     </div>
                     <div class="ms-2">
                         <p class="m-0 fs-2 font-kh-bayon">ខ្មែរ-TV</p>
@@ -75,7 +75,7 @@
                 <div class="offcanvas-header border-bottom">
                     <div class="d-flex align-items-center">
                         <div style="width: 55px; height: 55px;" class="overflow-hidden">
-                            <img src="./assets/icon/Icon.webp" alt="" class="w-100 h-100 object-fit-cover">
+                            <img src="./assets/logo.webp" alt="" class="w-100 h-100 object-fit-cover">
                         </div>
                         <div class="ms-2">
                             <p class="m-0 fs-2 font-kh-bayon">ខ្មែរ-TV</p>
@@ -87,9 +87,9 @@
                 <div class="offcanvas-body">
                     <ul class=" font-kh-bayon list-unstyled">
                         <a href="" class="nav-link text-dark fs-4 text-hover"><li class="my-3 border-bottom pb-2">ភាគយន្ត</li></a>
-                        <a href="" class="nav-link text-dark fs-4 text-hover"><li class="my-3 border-bottom pb-2">ភាគយន្តខ្មែរ</li></a>
-                        <a href="" class="nav-link text-dark fs-4 text-hover"><li class="my-3 border-bottom pb-2">ភាគយន្តបរទេស</li></a>
-                        <a href="" class="nav-link text-dark fs-4 text-hover"><li class="my-3 border-bottom pb-2">ភាគយន្តផ្សេងៗ</li></a>
+                        <a href="" class="nav-link text-dark fs-4 text-hover"><li class="my-3 border-bottom pb-2">រឿងខ្មែរ</li></a>
+                        <a href="" class="nav-link text-dark fs-4 text-hover"><li class="my-3 border-bottom pb-2">រឿងបរទេស</li></a>
+                        <a href="" class="nav-link text-dark fs-4 text-hover"><li class="my-3 border-bottom pb-2">រឿងផ្សេងៗ</li></a>
                     </ul>
 
                     <div>
@@ -113,7 +113,7 @@
         <main>
             <div class="hero">
                 <div class="container">
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <p class="font-kh-bayon text-blue-400 fs-2 mb-lg-2">ខ្មែរ-TV <span class="text-light">ភាគយន្តគ្មាន</span></p>
                         <p style="font-size: clamp(44px,4vw,120px);" class="text-light font-kh-bayon m-0">ដែនកំណត់ <span class="text-blue-500 auto-type" ></span></p>
                         <p style="font-size: clamp(44px,4vw,120px);" class="text-light font-kh-bayon">នៅក្នុង ខ្មែរ-TV របស់យើង</p>
@@ -139,10 +139,203 @@
                     </div>
                 </div>
             </div>
+
+            <!--------Movie Card------->
+            <div class="card-content container-fluid">
+                <div class="container py-5 ">
+                    <div class="row d-flex justify-content-between align-items-center px-3">
+                        
+                        <div class="text-center text-lg-start col-lg-6">
+                          
+                            <p class="text-light fs-4 font-kh-siemreap text-blue-400 fw-bold m-0">Watch By Online</p>
+                            <h1 class="text-light fw-bold font-en">Upcoming Movie</h1>
+
+                        </div>
+
+                        <div class="text-center col-lg-6">
+                            <ul class="nav justify-content-center justify-content-lg-end nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                  <button class="btn btn-dark border rounded-5 px-3 active" data-bs-toggle="pill" data-bs-target="#pills-scare" type="button">
+                                     រឿងរន្ធត់
+                                 </button>
+                                </li>
+    
+                                <li class="nav-item">
+                                  <button class="btn btn-dark border rounded-5 px-3 mx-lg-3" data-bs-toggle="pill" data-bs-target="#pills-funny" type="button">
+                                     រឿងកំប្លែង
+                                  </button>
+                                </li>
+    
+                                <li class="nav-item" >
+                                  <button class="btn btn-dark border rounded-5 px-3" data-bs-toggle="pill" data-bs-target="#pills-history" type="button">
+                                        រឿងសម័យដើម
+                                  </button>
+                                </li>              
+                              </ul>
+                        </div>
+                     </div>
+
+                     <!--Scary Story--------- -->
+                     <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-scare" >
+                                <!-- <h1 class="text-light">Halo, Comos es sta?</h1> -->
+                                 <div class="d-flex justify-content-between overflow-x-scroll scroll-bar" id="scarymovie"> 
+                                    <!-- overflow-x-scroll scroll-bar​ សម្រាប់ Scroll on Phone-->
+                                   
+                                    <!-- card -->
+                                     <div class="col-md-6 col-lg-3">
+                                        <div class="px-2">
+                                            <div style="height: 450px;" class="bg-blue-100 overflow-hidden hover-image rounded-2 ">
+                                                <img src="./assets/img/movie1.jpg" 
+                                                alt="" class="w-100 h-100 object-fit-cover">
+                                            </div>
+
+                                            <div class="d-flex justify-content-between mt-3 mb-2">
+                                                <h3 class="text-light font-kh-bayon">Spiderman</h3>
+                                                <h3 class="text-blue-400 fw-bold">២០២០</h3>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <p class="border-danger border-2 px-2 text-light fw-bold m-0 text-blue-400">HD</p>
+                                                <div class="pe-4 pe-md-2 pe-lg-0 d-flex align-items-center">
+                                                    <i class="bi bi-alarm me-2 fw-bolder text-light"></i>
+                                                    <p class="text-light m-0 fw-bolder">123 min</p>
+                                                    &ensp;
+                                                    <i class="bi bi-star-fill me-2 fw-bolder text-blue-400 fw-bold"></i>
+                                                    <p class="text-light m-0 fw-bolder">4.3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     </div>
+                                     <!-- ----Card--- -->
+
+                                 </div>
+                            </div>
+                 <!---------------Funny --------------->
+
+                            <div class="tab-pane fade  " id="pills-funny" >
+                                
+                                <div class="d-flex justify-content-between overflow-x-scroll scroll-bar" id="funnymovie"> 
+                                    <!-- overflow-x-scroll scroll-bar​ សម្រាប់ Scroll on Phone-->
+                                   
+                                    <!-- card -->
+                                     <div class="col-md-6 col-lg-3">
+                                        <div class="px-2">
+                                            <div style="height: 450px;" class="bg-blue-100 overflow-hidden hover-image rounded-2 ">
+                                                <img src="./assets/img/movie1.jpg" 
+                                                alt="" class="w-100 h-100 object-fit-cover">
+                                            </div>
+
+                                            <div class="d-flex justify-content-between mt-3 mb-2">
+                                                <h3 class="text-light font-kh-bayon">Spiderman</h3>
+                                                <h3 class="text-blue-400 fw-bold">២០២០</h3>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <p class="border-danger border-2 px-2 text-light fw-bold m-0 text-blue-400">HD</p>
+                                                <div class="pe-4 pe-md-2 pe-lg-0 d-flex align-items-center">
+                                                    <i class="bi bi-alarm me-2 fw-bolder text-light"></i>
+                                                    <p class="text-light m-0 fw-bolder">123 min</p>
+                                                    &ensp;
+                                                    <i class="bi bi-star-fill me-2 fw-bolder text-blue-400 fw-bold"></i>
+                                                    <p class="text-light m-0 fw-bolder">4.3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     </div>
+                                     <!-- ----Card--- -->
+
+                                 </div>
+                            </div>
+
+                            <!------------------Shooting Story------------- -->
+                            <div class="tab-pane fade" id="pills-history" >
+                                <div class="d-flex justify-content-between overflow-x-scroll scroll-bar" id="historymovie"> 
+                                    <!-- overflow-x-scroll scroll-bar​ សម្រាប់ Scroll on Phone-->
+                                   
+                                    <!-- card -->
+                                     <div class="col-md-6 col-lg-3">
+                                        <div class="px-2">
+                                            <div style="height: 450px;" class="bg-blue-100 overflow-hidden hover-image rounded-2 ">
+                                                <img src="./assets/img/movie1.jpg" 
+                                                alt="" class="w-100 h-100 object-fit-cover">
+                                            </div>
+
+                                            <div class="d-flex justify-content-between mt-3 mb-2">
+                                                <h3 class="text-light font-kh-bayon">Spiderman</h3>
+                                                <h3 class="text-blue-400 fw-bold">២០២០</h3>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <p class="border-danger border-2 px-2 text-light fw-bold m-0 text-blue-400">HD</p>
+                                                <div class="pe-4 pe-md-2 pe-lg-0 d-flex align-items-center">
+                                                    <i class="bi bi-alarm me-2 fw-bolder text-light"></i>
+                                                    <p class="text-light m-0 fw-bolder">123 min</p>
+                                                    &ensp;
+                                                    <i class="bi bi-star-fill me-2 fw-bolder text-blue-400 fw-bold"></i>
+                                                    <p class="text-light m-0 fw-bolder">4.3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     </div>
+                                     <!-- ----Card--- -->
+                                 </div>                        
+                            </div>    
+                      </div>
+                </div>
+            </div>
+
+            <!-- Section Download -->
+            <div class="container-fluid p-0 bg-dark">
+                <div class="container p-0">
+                    <div class="row m-0">
+                        <div class="col-lg-6 p-4 p-lg-5 d-flex align-items-center justify-content-center">
+                            <img src="./assets/Section.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-lg-6 p-4 p-lg-5">
+                            <p class="border-start border-2 ps-2 fw-bold font-eg text-light">Our Service </p>
+                            <h1 class="text-light font-kh-bayon mb-3">ទាញយករឿងដែលអ្នកចូលចិត្ត</h1>
+                            <h1 class="text-light font-kh-bayon">មើលដោយរីករាយ</h1>
+                            <p class="text-light font-eg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel
+                                 facilis sapiente exercitationem et doloribus reiciendis quam quae 
+                                 accusantium vitae quia, aspernatur magni harum officiis non dolores 
+                                 corrupti officia minima.
+                            </p>
+                            <div class="d-flex text-light align-items-center">
+                                <h1 class="p-4 mb-0 rounded-circle bg-hover transition" style="border-style: dashed; font-size: 45px;">
+                                    <i class="bi bi-tv-fill"></i>
+                                </h1>
+                                <div class="ms-2">
+                                    <h3 class="font-kh-bayon m-0">រីករាយជាមួយរឿង</h3>
+                                    <p class="m-0">Lorem ipsum dolor sit amet consectetur, 
+                                        <br> adipisicing elit. Cum doloremque assumenda dolor 
+                                     </p>
+                                </div>
+                            </div>
+                        
+                        <!-- rular -->
+                         <hr class="text-light" style="border-style: dashed;">
+                        <!-- rular -->
+                         <div class="d-flex align-items-center text-light">
+                            <h1 class="p-4 mb-0 rounded-circle bg-hover transition" style="border-style: dashed; font-size: 45px;">
+                                 <i class="bi bi-camera-video-fill"></i>
+                            </h1>
+                            <div class="ms-2">
+                                    <h3 class="font-kh-bayon m-0">មើលគ្រប់ទីកន្លែង</h3>
+                                    <p class="m-0">Lorem ipsum dolor sit amet consectetur, 
+                                        <br> adipisicing elit. Cum doloremque assumenda dolor 
+                             </p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+               <!-- Section Download -->
+
+
         </main>
         
         <!-- Footer -->
         <footer>
+
         </footer>
     </div>
     
