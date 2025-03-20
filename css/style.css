@@ -49,15 +49,18 @@
     color: var(--main-color-500) !important;
     /* transition: color 0.3s ease-in-out; */
 }
+body {
+    background-color: black;
+}
 
 /* ================ main=============== */
-main {
+.hero {
     height: 100vh;
 }
 main > .hero {
     width: 100%;
-    height: 100%;
-    background: url(https://i.pinimg.com/736x/39/d5/a9/39d5a9d97fcc84f8d628be46a7e77496.jpg);
+    /* height: 100%; */
+    background: url(https://i.pinimg.com/736x/aa/c2/c0/aac2c00961f6f3c4802010e219910ca0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -79,7 +82,7 @@ main > .card-content{
 
 .hover-image:hover{
     cursor: pointer;
-    filter: brightness(130%) !important;
+    filter: brightness(120%) !important;
 }
 
 /* សម្រាប់ Scroll on Phone */
@@ -91,4 +94,25 @@ main > .card-content{
 }
 .bg-hover:hover{
     background-color: var(--main-color-500) !important;
+}
+
+/* ------------------Footer-------------- */
+.top{
+    width: 100%;
+    height: 100%;
+    background: url(https://i.pinimg.com/736x/23/d4/6a/23d46a541602fa24ff96f07bbf522253.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+/* -----------Middle Footer------------- */
+.mid{
+    width: 100%;
+    height: 100%;
+   background: url(../assets/middleFooter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
